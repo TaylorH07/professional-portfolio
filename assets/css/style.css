@@ -53,8 +53,13 @@
 body {
   font-family: fantasy;
   background-color: var(--secondary-color);
+  color: var(--tertiary-color);
 }
-/*Header*/
+
+.content {
+  padding: 20px 35px;
+}
+/*Header/Navigation Section*/
 
 header {
   padding: 20px 35px;
@@ -79,6 +84,7 @@ header h1 {
   color: var(--primary-color);
   margin: 0;
   text-shadow: 5px 10px 15px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
 }
 
 header nav ul {
@@ -127,4 +133,52 @@ footer a {
   color: var(--tertiary-color);
 }
 
+img {
+  max-width: 100%;
+}
+
+/*Hero/about me*/
+.pro-pic {
+  height: 400px;
+  width: 400px;
+}
+
 /* projects section*/
+.title {
+  color: #f8f9fa;
+  font-weight: bolder;
+}
+
+.projects {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.project-title {
+  color: #f0eded;
+}
+
+.run {
+  height: 400px;
+  width: 400px;
+  text-align: center;
+}
+
+.seo {
+  height: 600px;
+  width: 600px;
+  text-align: center;
+}
+
+/*Contact Me*/
+#contact-me {
+  text-align: center;
+}
+
+.icon {
+  height: 5rem;
+  font-size: 6em;
+}
